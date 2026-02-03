@@ -1,48 +1,21 @@
-Automobile Management System (C++)
-A comprehensive command-line application designed to simulate the operations of an automobile dealership. This project was developed as part of my initial introduction to programming, focusing on Object-Oriented Programming (OOP) principles in C++.
+🚗 Automobile Management System (C++)A comprehensive Command-Line Interface (CLI) application designed to simulate the end-to-end operations of an automobile dealership. This project was developed to master Object-Oriented Programming (OOP) principles, focusing on modular architecture and real-world logic implementation.
 
-🚀 Features
-The system is divided into several modules to handle different aspects of vehicle transactions:
+🌟 Key Features:
 
-Secure Authentication: User registration and login system featuring basic password encryption (Shift Cipher).
+**Secure Authentication: User registration and login system featuring a Shift Cipher algorithm for password encryption.Inventory Management: A centralized tracking system for vehicle models with real-time price referencing.
 
-Inventory Management: A pre-defined list of popular vehicles with real-time price tracking.
+**Buy & Sell Module: Supports purchasing from existing inventory and listing personal vehicles with custom metadata. 
 
-Buy & Sell: Users can purchase existing inventory or list their own vehicles for sale.
+**Rent & Lease: Dynamic pricing engine for short-term and long-term vehicle acquisition based on duration tiers.
 
-Rent & Lease: Logic for short-term renting and long-term leasing with dynamic pricing based on duration.
+**Finance & Payments: Integrated support for Cash, Card, and Cheque transactions.EMI Calculator: Automated financial logic that calculates down payments and monthly installments based on CIBIL credit scores.
 
-Finance & Payments: * Supports Cash, Card, and Cheque.
+**Accessories Store: A standalone shop for vehicle add-ons with quantity-based cost calculation.
 
-EMI Calculator: Automatically calculates down payments and monthly installments based on the user's CIBIL credit score.
+How to Run:
 
-Accessories Store: A dedicated shop for vehicle add-ons (LEDs, Cameras, etc.) with quantity-based cost calculation.
+**Clone the Repository: Bashgit clone https://github.com/your-username/automobile-management-system.git
 
-General Enquiry: Allows guest users to view inventory and accessories before logging in.
+**Compile the Application: Bashg++ main.cpp -o auto_system
 
-🛠️ Technical Concepts Used
-This project implements several advanced C++ concepts:
-
-Inheritance: Used to pass financial processing capabilities from the Finance class to the buy_sell, Rent_Lease, and Accessories classes.
-
-Function Overloading: The Pay() method is overloaded to handle different parameters (Card numbers, Cheque details, or Credit scores).
-
-Friend Classes: Rent_Lease is a friend of buy_sell to allow seamless access to vehicle inventory data.
-
-Data Encapsulation: Logic and data are bundled within classes to maintain a clean structure.
-
-Encryption: A simple character-shifting algorithm to demonstrate basic security concepts.
-
-💻 How to Run
-Clone the Repository:
-
-Bash
-git clone https://github.com/your-username/automobile-management-system.git
-Compile the Code: Using a compiler like g++:
-
-Bash
-g++ main.cpp -o auto_system
-Execute the Program:
-
-Bash
-./auto_system
+**Execute: Bash./auto_system
