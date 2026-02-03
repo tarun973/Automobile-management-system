@@ -1,6 +1,7 @@
-🚗 ### Automobile Management System (C++): A comprehensive Command-Line Interface (CLI) application designed to simulate the end-to-end operations of an automobile dealership. This project was developed to master Object-Oriented Programming (OOP) principles, focusing on modular architecture and real-world logic implementation.
+### 🚗 Automobile Management System (C++): 
+A comprehensive Command-Line Interface (CLI) application designed to simulate the end-to-end operations of an automobile dealership. This project was developed to master Object-Oriented Programming (OOP) principles, focusing on modular architecture and real-world logic implementation.
 
-🌟 ### Key Features:
+### 🌟 Key Features:
 
 **1) Secure Authentication:** User registration and login system featuring a Shift Cipher algorithm for password encryption.Inventory Management: A centralized tracking system for vehicle models with real-time price referencing.
 
